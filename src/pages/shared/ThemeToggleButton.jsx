@@ -6,7 +6,7 @@ const ThemeToggleButton = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <button className="btn flex items-center gap-2 p-2 rounded-md"
+    <button className="btn btn-sm md:btn-md flex items-center rounded-md"
       onClick={toggleTheme}
     >
       {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}

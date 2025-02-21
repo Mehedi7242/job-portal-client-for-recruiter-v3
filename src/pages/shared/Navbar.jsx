@@ -63,12 +63,12 @@ const Navbar = () => {
             
                 {
                     user ? <>
-                        <button onClick={handleSignOut} className="btn">Sign out</button>
+                        <button onClick={handleSignOut} className="btn btn-sm md:btn-md">Sign out</button>
                     </> : <>
-                        <Link to="/register">Register</Link>
-                        <Link to="/signIn">
-                            <button className="btn">Sign In</button>
-                        </Link>
+                        <NavLink className=" btn btn-sm md:btn-md" to="/register">Register</NavLink>
+                        <NavLink className='btn btn-sm md:btn-md' to="/signIn">
+                            Sign In
+                        </NavLink>
                     </>
                 }
                 <ThemeToggleButton></ThemeToggleButton>
