@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { easeOut, motion } from "framer-motion";
 import team1 from '../../assets/team/team1.jpg';
 import team2 from '../../assets/team/team2.jpg';
-import { use } from 'react';
 import ThemeContext from '../../context/ThemeContext/ThemeContext';
 
 

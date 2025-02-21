@@ -5,6 +5,7 @@ import AuthContext from '../../context/AuthContext/AuthContext';
 import SocialLogin from '../shared/SocialLogin';
 import { useLocation, useNavigate } from 'react-router-dom';
 
+
 const SignIn = () => {
     const { singInUser } = useContext(AuthContext);
     const location = useLocation();

@@ -23,9 +23,10 @@ const Navbar = () => {
         <li><NavLink to="/myApplications">My Applications</NavLink></li>
         <li><NavLink to="/addJob">Add A Job</NavLink></li>
         <li><NavLink to="/myPostedJobs">My Posted Jobs</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
