@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import AuthContext from '../../context/AuthContext/AuthContext';
 import logo from '../../assets/logo-small.png'
+import ThemeToggleButton from './ThemeToggleButton';
 
 const Navbar = () => {
 
@@ -58,6 +59,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+            
                 {
                     user ? <>
                         <button onClick={handleSignOut} className="btn">Sign out</button>
@@ -68,6 +70,7 @@ const Navbar = () => {
                         </Link>
                     </>
                 }
+                <ThemeToggleButton></ThemeToggleButton>
 
             </div>
         </div>

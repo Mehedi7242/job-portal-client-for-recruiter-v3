@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { easeOut, motion } from "framer-motion";
 import team1 from '../../assets/team/team1.jpg';
 import team2 from '../../assets/team/team2.jpg';
+import { use } from 'react';
+import ThemeContext from '../../context/ThemeContext/ThemeContext';
+
 
 const Banner = () => {
+    const {theme} = useContext(ThemeContext)
+    console.log(theme)
     return (
         <div className="hero bg-base-200 min-h-96">
             <div className="hero-content flex-col lg:flex-row-reverse">
@@ -34,6 +39,7 @@ const Banner = () => {
                     <button className="btn btn-primary">Get Started</button>
                 </div>
             </div>
+            
         </div>
     );
 };
