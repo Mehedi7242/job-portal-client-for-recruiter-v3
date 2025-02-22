@@ -24,6 +24,7 @@ const Navbar = () => {
         <li><NavLink to="/addJob">Add A Job</NavLink></li>
         <li><NavLink to="/myPostedJobs">My Posted Jobs</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/buyMeACoffee">Buy Me A Coffee</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 ">
@@ -51,7 +52,7 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-xl">
                     <img className='w-12' src={logo} alt="" />
-                    <h3 className="text-3xl">Job Portal</h3>
+                    <h3 className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500">Job Portal</h3>
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">

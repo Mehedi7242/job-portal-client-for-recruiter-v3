@@ -13,6 +13,7 @@ import AddJob from "../pages/AddJob/AddJob";
 import MyPostedJobs from "../pages/MyPostedJobs/MyPostedJobs";
 import ViewApplications from "../pages/ViewApplications/ViewApplications";
 import About from "../pages/about/About";
+import BuyMeACoffee from "../pages/buyMeACoffee/BuyMeACoffee";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element:<About></About>
+      },
+      {
+        path: 'buyMeACoffee',
+        element:<BuyMeACoffee></BuyMeACoffee>
       }
     ]
   },

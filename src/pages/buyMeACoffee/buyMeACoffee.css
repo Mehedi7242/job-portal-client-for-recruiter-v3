@@ -1,0 +1,29 @@
+/* BuyMeACoffee.css */
+
+/* Define the moving glow effect */
+
+
+/* Apply the animation to the element */
+.moving-glow {
+    animation: moveGlow 4s infinite linear;
+}
+
+/* Adding text shadow for additional effects */
+.text-shadow {
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply glowing text for various elements */
+.bg-gradient-text {
+    background: linear-gradient(to right, #6c5ce7, #ff6b81, #f39c12);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Add some margin and padding for better spacing */
+.mt-3 {
+    margin-top: 1rem;
+}
+.mt-5 {
+    margin-top: 1.25rem;
+}
